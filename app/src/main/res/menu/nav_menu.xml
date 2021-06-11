@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_bottom_now_playing"
+        android:icon="@drawable/ic_baseline_today"
+        android:title="Airing Today"/>
+    <item
+        android:id="@+id/nav_bottom_popular"
+        android:icon="@drawable/ic_popular_white"
+        android:title="Popular"/>
+
+    <item
+        android:id="@+id/nav_bottom_upcoming"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        android:title="Upcoming"/>
+
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="Favorite"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+
+</menu>
